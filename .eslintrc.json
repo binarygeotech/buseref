@@ -120,7 +120,7 @@
     ],
     "max-statements": [
       1,
-      10
+      15
     ],
     "new-cap": 2,
     "new-parens": 2,
