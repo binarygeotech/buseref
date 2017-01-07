@@ -1,4 +1,4 @@
-# useref [![Build Status](https://travis-ci.org/jonkemp/useref.svg?branch=master)](https://travis-ci.org/jonkemp/useref) [![Coverage Status](https://coveralls.io/repos/jonkemp/useref/badge.svg?branch=master&service=github)](https://coveralls.io/github/binarygeotech/buseref?branch=master)
+# useref [![Build Status](https://travis-ci.org/binarygeotech/buseref.svg?branch=master)](https://travis-ci.org/binarygeotech/buseref) [![Coverage Status](https://coveralls.io/repos/binarygeotech/buseref/badge.svg?branch=master&service=github)](https://coveralls.io/github/binarygeotech/buseref?branch=master)
 
 [![NPM](https://nodei.co/npm/buseref.png?downloads=true)](https://nodei.co/npm/buseref/)
 
