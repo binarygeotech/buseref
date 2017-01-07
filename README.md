@@ -224,7 +224,7 @@ Default: `null`
 If you would like to do handle the processing of all blocks, this is possible with the callback, as demonstrated below.
 
 ```html
-<!-- build:css components -->
+<!-- build:css combined.css -->
 <link href="css/one.css" rel="stylesheet">
 <link href="css/two.css" rel="stylesheet">
 <!-- endbuild -->
@@ -264,17 +264,16 @@ var result = useref(inputHtml, {
 Becomes
 
 ```html
-<link rel="import" href="/components/some/path"></link>
+<link rel="stylesheet" href="combined.css">
 ```
 
 The handler function gets the following arguments:
 
 - *content* (String): The content of the custom use block
+- *type* (String): The block type; css, js or remove
 - *target* (String): The "path" value of the use block definition
-- *options* (String): The extra attributes from the use block definition, the developer can parse as JSON or do whatever they want with it
-- *alternateSearchPath* (String): The alternate search path that can be used to maintain a coherent interface with standard handlers
+- *attibutes* (String): The extra attributes from the use block definition, the developer can parse as JSON or do whatever they want with it
 
-Include a handler for each custom block type.
 ## Contributing
 
 See the [CONTRIBUTING Guidelines](https://github.com/binarygeotech/buseref/blob/master/CONTRIBUTING.md)
