@@ -16,20 +16,20 @@ module.exports = function (content, options) {
 };
 
 module.exports.file = function (filename, options) {
-  var e = fs.existsSync(filename), block, content = '', opts, transformedContent, replaced;
-  
+  var e = fs.existsSync(filename), blocks, content = '', opts, transformedContent, replaced;
+
   if (e) {
     content = fs.readFileSync(filename, 'utf8');
-    
+
     if (content.length) {
       blocks = getBlocks(content);
       opts = options || {};
       transformedContent = transformReferences(blocks, content, opts);
       replaced = compactContent(blocks);
-      
+
       return [ transformedContent, replaced ];
     }
   }
-  
+
   return null;
 };
