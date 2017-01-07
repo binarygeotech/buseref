@@ -1,6 +1,6 @@
 {
   "name": "buseref",
-  "version": "2.0.0",
+  "version": "1.2.0",
   "description": "Parse build blocks in HTML files to replace references",
   "main": "index.js",
   "directories": {
