@@ -1,5 +1,5 @@
 {
-  "name": "useref",
+  "name": "buseref",
   "version": "1.2.0",
   "description": "Parse build blocks in HTML files to replace references",
   "main": "index.js",
@@ -28,7 +28,7 @@
     "link",
     "ref"
   ],
-  "author": "Jonathan Kemp <kempdogg@gmail.com> (http://jonkemp.com/)",
+  "author": "Okojie Davis, GEORGE <binarygeotech@gmail.com> (http://okojiegeorge.com/)",
   "license": "MIT",
   "devDependencies": {
     "chai": "^3.4.1",
@@ -39,5 +39,5 @@
     "mocha": "*",
     "nyc": "^8.1.0"
   },
-  "repository": "jonkemp/useref"
+  "repository": "binarygeotech/buseref"
 }
