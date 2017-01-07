@@ -1,25 +1,31 @@
-# useref [![Build Status](https://travis-ci.org/jonkemp/useref.svg?branch=master)](https://travis-ci.org/jonkemp/useref) [![Coverage Status](https://coveralls.io/repos/jonkemp/useref/badge.svg?branch=master&service=github)](https://coveralls.io/github/jonkemp/useref?branch=master)
+# useref [![Build Status](https://travis-ci.org/jonkemp/useref.svg?branch=master)](https://travis-ci.org/jonkemp/useref) [![Coverage Status](https://coveralls.io/repos/jonkemp/useref/badge.svg?branch=master&service=github)](https://coveralls.io/github/binarygeotech/buseref?branch=master)
 
-[![NPM](https://nodei.co/npm/useref.png?downloads=true)](https://nodei.co/npm/useref/)
+[![NPM](https://nodei.co/npm/buseref.png?downloads=true)](https://nodei.co/npm/buseref/)
 
 > Parse build blocks in HTML files to replace references
 
-Extracted from the grunt plugin [grunt-useref](https://github.com/pajtai/grunt-useref).
+Forked from the Jonathan Kemp [useref](https://github.com/jonkemp/useref/) with more options.
 
 ## Installation
 
 ```
-npm install useref
+npm install buseref
 ```
 
 ## Usage
 
 ```js
-var useref = require('useref');
+var useref = require('buseref');
 var result = useref(inputHtml);
 // result = [ replacedHtml, { type: { path: { 'assets': [ replacedFiles] }}} ]
 ```
+or
 
+```js
+var useref = require('buseref');
+var result = useref.file(filename);
+// result = [ replacedHtml, { type: { path: { 'assets': [ replacedFiles] }}} ]
+```
 
 Blocks are expressed as:
 
@@ -132,7 +138,7 @@ Sometimes you need a bit more. If you would like to do custom processing, this i
 With
 
 ```js
-var useref = require('useref');
+var useref = require('buseref');
 var result = useref(inputHtml, {
   // each property corresponds to any blocks with the same name, e.g. "build:import"
   import: function (content, target, options, alternateSearchPath) {
@@ -193,8 +199,8 @@ Results in:
 
 ## Contributing
 
-See the [CONTRIBUTING Guidelines](https://github.com/jonkemp/useref/blob/master/CONTRIBUTING.md)
+See the [CONTRIBUTING Guidelines](https://github.com/binarygeotech/buseref/blob/master/CONTRIBUTING.md)
 
 ## License
 
-MIT © [Jonathan Kemp](http://jonkemp.com)
+MIT © [Okojie Davis GEORGE](http://okojiedgeorge.com)
