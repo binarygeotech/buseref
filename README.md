@@ -1,4 +1,4 @@
-# buseref [![Build Status](https://travis-ci.org/binarygeotech/buseref.svg?branch=master)](https://travis-ci.org/binarygeotech/buseref) [![Coverage Status](https://coveralls.io/repos/binarygeotech/buseref/badge.svg?branch=master&service=github)](https://coveralls.io/github/binarygeotech/buseref?branch=master)
+# buseref [![Build Status](https://travis-ci.org/binarygeotech/buseref.svg?branch=master)](https://travis-ci.org/binarygeotech/buseref) [![Coverage Status](https://coveralls.io/repos/github/binarygeotech/buseref/badge.svg?branch=master)](https://coveralls.io/github/binarygeotech/buseref?branch=master)
 
 [![NPM](https://nodei.co/npm/buseref.png?downloads=true)](https://nodei.co/npm/buseref/)
 
